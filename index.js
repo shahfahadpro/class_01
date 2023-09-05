@@ -34,18 +34,3 @@ function editItem(event) {
 function deleteItem(event) {
   event.target.parentNode.parentNode.remove();
 }
-
-// currying
-
-let result = 0;
-
-function sum(a) {
-  if (!a) {
-    return result;
-  }
-
-  result += a;
-  return sum;
-}
-
-console.log(sum(2)(3)());
