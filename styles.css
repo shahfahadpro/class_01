@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Neucha&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* 
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script";
+  background-color: black;
+}
+
+.todo {
+  width: 50%;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.input_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input_section input {
+  flex: 1 1 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.input_section i:hover {
+  cursor: pointer;
+}
+
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.list_item i:hover {
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} */
+
+div {
+  width: 30%;
+  background-color: black;
+  color: red;
+  transition: all 1s linear;
+}
+
+div:hover {
+  cursor: pointer;
+  color: white;
+}
