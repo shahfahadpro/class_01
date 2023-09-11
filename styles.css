@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Dancing Script";
-  background-color: aqua;
+  background-color: black;
 }
 
 .todo {
@@ -46,7 +46,7 @@ body {
   align-items: center;
   width: 100%;
   color: white;
-  background-color: blue;
+  background-color: black;
   border-radius: 10px;
   margin: 10px 0px;
   padding: 10px;
